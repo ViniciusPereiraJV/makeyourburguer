@@ -1,0 +1,133 @@
+{
+  "ingredients": {
+    "breads": [
+      {
+        "id": 1,
+        "type": "Italiano Branco",
+        "class": "italiano-branco"
+      },
+      {
+        "id": 2,
+        "type": "3 Queijos",
+        "class": "tres-queijos"
+      },
+      {
+        "id": 3,
+        "type": "Parmesão e Orégano",
+        "class": "parmesao-oregano"
+      },
+      {
+        "id": 4,
+        "type": "Integral",
+        "class": "integral"
+      }
+    ],
+    "meats": [
+      {
+        "id": 1,
+        "type": "Maminha",
+        "class": "maminha"
+      },
+      {
+        "id": 2,
+        "type": "Alcatra",
+        "class": "alcatra"
+      },
+      {
+        "id": 3,
+        "type": "Picanha",
+        "class": "picanha"
+      },
+      {
+        "id": 4,
+        "type": "Veggie burger",
+        "class": "veggie-burger"
+      }
+    ],
+    "optional": [
+      {
+        "id": 1,
+        "type": "Bacon",
+        "classe": "bacon",
+        "img": "/img/bacon.png"
+      },
+      {
+        "id": 2,
+        "type": "Cheddar",
+        "classe": "cheddar",
+        "img": "/img/cheddar.png"
+      },
+      {
+        "id": 3,
+        "type": "Salame",
+        "classe": "salame",
+        "img": "/img/salame.png"
+      },
+      {
+        "id": 4,
+        "type": "Tomate",
+        "classe": "tomate",
+        "img": "/img/tomate.png"
+      },
+      {
+        "id": 4,
+        "type": "Cebola roxa",
+        "classe": "cebola-roxa",
+        "img": "/img/cebola-roxa.png"
+      },
+      {
+        "id": 4,
+        "type": "Pepino",
+        "classe": "pepino",
+        "img": "/img/pepino.png"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": "1",
+      "type": "Solicitado"
+    },
+    {
+      "id": "2",
+      "type": "Em produção"
+    },
+    {
+      "id": "3",
+      "type": "Finalizado"
+    }
+  ],
+  "burgers": [
+    {
+      "id": "c077",
+      "name": "João Vinicius Pinheiro",
+      "meat": "Maminha",
+      "bread": "3 Queijos",
+      "optional": [
+        "Cebola roxa"
+      ],
+      "status": "Solicited"
+    },
+    {
+      "id": "2ace",
+      "name": "Maria",
+      "meat": "Alcatra",
+      "bread": "3 Queijos",
+      "optional": [
+        "Bacon"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "697b",
+      "name": "João Vinicius Pereira Pinheiro",
+      "meat": "picanha",
+      "bread": "parmesao-oregano",
+      "optional": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "status": "Finalizado"
+    }
+  ]
+}
